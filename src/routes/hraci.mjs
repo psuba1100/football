@@ -10,7 +10,7 @@ let db = [
 router.get("/hraci", (req, res) => {
     const { query: { filter } } = req
 
-    if (!filter) return res.send(db.splice(0,20))
+    if (!filter) return res.send(db.slice(0, 20));
 
     return res.send(
         db.filter((hrac) => hrac.name.includes(filter))

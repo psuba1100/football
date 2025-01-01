@@ -23,9 +23,48 @@ body {
 .container .controls button {
   margin: 0px 2em 0px 2em;
 }
+.container .controls #casomiera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .controls #casomiera button {
+  margin: 0px 0px 0px 2em;
+}
 .container .statistika {
   grid-column: 1/4;
   grid-row: 2/2;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.container .statistika .playerStat {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.container .statistika .playerStat h4 {
+  margin: 0;
+  padding: 0;
+}
+.container .statistika .playerStat .btns {
+  width: 100%;
+  display: flex;
+}
+.container .statistika .playerStat .btns .btn {
+  width: 33.3333333333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .statistika .playerStat .btns .btn p {
+  margin: 0;
+  padding: 0;
 }
 .container .ihrisko {
   grid-column: 4/10;
@@ -37,16 +76,22 @@ body {
   background-size: cover;
   background-position: center;
   padding-top: 91%;
+  position: relative;
 }
 .container .hraci {
   grid-column: 10/13;
   grid-row: 2/2;
+  position: relative;
+}
+.container .hraci .playerNameTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  cursor: grab;
 }
 .container * {
   border: 2px dashed #aaa;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-sizing: border-box;
 }
 

@@ -13,16 +13,19 @@
     <div class="container">
         <div class="controls">
             <button id="pridatHraca">Pridať hráča</button>
-            <div id="casomiera">časomiera</div>
+            <div id="casomiera">
+                <div id="casDisplay">0:00</div>
+                <button id="casomieraButton">Štart</button>
+            </div>
             <button id="ukoncit">Ukončiť</button>
         </div>
-        <div class="statistika">statistika</div>
+        <div class="statistika" id="stats"></div>
         <div class="ihrisko">
             <div id="drop">
 
             </div>
         </div>
-        <div class="hraci">hraci</div>
+        <div class="hraci" id="hraci"></div>
     </div>
 
     <dialog class="modal" id="pridanieHracov">
@@ -44,7 +47,8 @@
         </div>
     </dialog>
 
-    <script src="../js/mtracker.js" defer></script>
+    <script src="../js/search.js" type="module" defer></script>
+    <script src="../js/mtrackerMain.js" type="module" defer></script>
 </body>
 
 </html>
