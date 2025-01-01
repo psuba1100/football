@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/tracker.css">
+    <title>Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="big-area" id="big-area">
+            <!-- Droppable Area -->
+        </div>
+        <div class="sidebar">
+            <button id="main-timer-btn">Start Timer</button>
+            <div id="individual-timers">
+                <!-- Timers for individual squares will appear here -->
+            </div>
+        </div>
+        <div class="square-list">
+            <!-- Squares List -->
+            <div class="square" draggable="true" id="square1" data-id="1">Square 1</div>
+            <div class="square" draggable="true" id="square2" data-id="2">Square 2</div>
+            <div class="square" draggable="true" id="square3" data-id="3">Square 3</div>
+        </div>
+    </div>
+    <script src="../js/tracker.js" defer></script>
+</body>
+</html>

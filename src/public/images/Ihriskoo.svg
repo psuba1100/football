@@ -1,0 +1,23 @@
+<svg width="352" height="320" viewBox="0 0 352 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_7_27)">
+<rect width="352" height="320" fill="#2E8A05"/>
+<rect x="24.5" y="24.5" width="303" height="577" stroke="#EAEAEA" stroke-width="5"/>
+<path d="M25.5 313H327.5" stroke="#EAEAEA" stroke-width="2"/>
+<circle cx="176" cy="313" r="59" stroke="#EAEAEA" stroke-width="2"/>
+<circle cx="176" cy="313" r="3" fill="#EAEAEA"/>
+<rect x="97.5" y="24.5" width="157" height="81" stroke="#EAEAEA" stroke-width="3"/>
+<rect x="134.5" y="24.5" width="83" height="37" stroke="#EAEAEA" stroke-width="3"/>
+<circle cx="3" cy="3" r="3" transform="matrix(1 0 0 -1 173 87)" fill="#EAEAEA"/>
+<mask id="mask0_7_27" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="124" y="105" width="107" height="43">
+<rect width="107" height="43" transform="matrix(1 0 0 -1 124 148)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_7_27)">
+<circle cx="42" cy="42" r="40.5" transform="matrix(1 0 0 -1 134 143)" stroke="#EAEAEA" stroke-width="3"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_7_27">
+<rect width="352" height="320" fill="white"/>
+</clipPath>
+</defs>
+</svg>

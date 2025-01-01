@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Môj tracker</title>
+
+    <link rel="stylesheet" href="../css/mTracker.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="controls">
+            <button id="pridatHraca">Pridať hráča</button>
+            <div id="casomiera">časomiera</div>
+            <button id="ukoncit">Ukončiť</button>
+        </div>
+        <div class="statistika">statistika</div>
+        <div class="ihrisko">
+            <div id="drop">
+
+            </div>
+        </div>
+        <div class="hraci">hraci</div>
+    </div>
+
+    <dialog class="modal" id="pridanieHracov">
+        <div class="dialog">
+            <div class="head">
+                <h2>Pridanie hráčov</h2>
+            </div>
+            <div class="body">
+                <div id="nepridaniHraci">
+                    <input type="text" name="vyhladanieHraca" id="vyhladanieHraca">
+                </div>
+                <div id="pridaniHraci">
+
+                </div>
+            </div>
+            <div class="footer">
+                <button id="closeModal">Zavrieť</button>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="../js/mtracker.js" defer></script>
+</body>
+
+</html>
